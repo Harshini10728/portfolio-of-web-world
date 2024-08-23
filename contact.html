@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<style>
+  body{
+    background-color:rgb(8, 8, 8);
+    color: white;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color:violet;
+    color: #030303;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:rgb(242, 10, 242);
+  }
+  .login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #070606;
+  }
+</style>
+<link rel="stylesheet" href="bar style.css"/>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="https://www.linkedin.com/in/harshini-m-bb3932275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">my linkedin</a>
+    <a href="about.html">project</a>
+    <a href="demo.html">Resume</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+<h1 align="center">Contact Me</h1>
+    <div class="login-container">
+  <form id="login-form">
+  <label for="name">Your Name</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="name">Your Qualification</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="name">Gender</label>
+    <input type="radio" name="answer1">female
+    <input type="radio" name="answer1">male<br>
+    <br>
+    <label type="name">Your email</label><br>
+    <input type="text" id="name" >
+    <p><input type="checkbox" name="answer1">I agree to submit my details</p>
+    <button type="submit">Submit</button>
+</form>
+    <div id="message"></div>
+  </div>
+      <script src="script.js"></script>
+</body>
+</html>

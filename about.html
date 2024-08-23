@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+
+      body{
+        background-color: rgb(9, 10, 9);
+                font-family: 'Times New Roman', Times, serif;
+                color: white;
+      }
+      nav {
+    background-color: rgb(247, 5, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 1220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+c{
+    color: #000;
+    size: 10cm;
+    
+}
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+    letter-spacing: 0.8px;
+    position: relative;
+}
+
+a:hover {
+    color: blueviolet;
+}
+        .container{
+          display: flex;
+          
+        }
+        .project1{
+          flex: 1;
+          padding: 30px;
+          width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #070307;
+    border-radius: 5px;
+    background-color:violet;
+        }
+        .project2{
+          flex: 1;
+          padding: 30px;
+          margin: 20px;
+    padding: 20px;
+    border: 1px solid #070307;
+    border-radius: 5px;
+    background-color: violet;
+        }
+        .project3{
+          flex: 1;
+          padding: 30px;
+          margin: 20px;
+    padding: 20px;
+    border: 1px solid #070307;
+    border-radius: 5px;
+    background-color: violet;
+        }
+        p{
+          font-size: 30px;
+        }
+        button {
+    padding: 10px 20px;
+    background-color: rgb(248, 10, 248);
+    color: #060606;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#b405b7;
+  }
+  #customHr {
+            border: 1px solid black;
+            width: 100%;
+        }
+  </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="https://www.linkedin.com/in/harshini-m-bb3932275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">my linkedin</a>
+        <a href="about.html">project</a>
+        <a href="demo.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <br><br><br><br>
+    
+        <center>
+          <h1 style="font-size: 50px;">Project</h1>
+        </center>
+        <hr id="customHr">
+        <div class="container">
+          <div class="project1">
+            <p>portfolio</p>
+            <p>i created website as portfolio using html,css,java sript in visual studio</p>
+          </div>
+          <div class="project2">
+            <p>Aptitude quiz game</p>
+            <p>i created website for college student to study aptitude from my website</p>
+            <button onclick="quiz()"><b>click here</b></button>
+          </div>
+          <div class="project3">
+            <p>Memory card game</p>
+            <p>i created website for memory analyzer</p>
+            <button onclick="card()"><b>click here</b></button>
+          </div>
+        </div>
+        
+      <script>
+        function quiz(){
+          window.open('https://harshini10728.github.io/Aptitude-Web-World/','_blank');
+        }
+        function card(){
+          window.open('https://harshini10728.github.io/Memory-Game-Web-World-2/','_blank');
+        }
+      </script>
+</body>
+</html>

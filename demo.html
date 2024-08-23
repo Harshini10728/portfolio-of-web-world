@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <style>
+      
+        body{
+                background-color: rgb(9, 10, 9);
+                font-family: 'Times New Roman', Times, serif;
+                color: white;
+            }
+            .container {
+    display: flex;
+  }
+  .as{
+    padding-left: 200px;
+  }
+  .am{
+    padding-left: 200px;
+  }
+  .ac{
+    padding-left: 200px;
+  }
+  .progress-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.progress-circle__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.progress-circle__background {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 10;
+}
+.progress-circle__bar {
+  fill: none;
+  stroke: #4caf50;
+  stroke-width: 10;
+  stroke-dasharray: 0 100;
+  transform-origin: center;
+  transform: rotate(-90deg);
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.progress-circle__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+.progress-bar {
+        width: 300px;
+        height: 30px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .progress {
+        height: 100%;
+        background-color: #4caf50;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+    }
+    
+    .can{
+      width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f1eded;
+    border-radius: 5px;
+    background-color: #050404;
+    
+    }
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+.phone-icon::before {
+    content: "📞";
+    margin-right: 8px;
+}
+
+.email-icon::before {
+    content: "✉";
+    margin-right: 8px;
+}
+
+.github-icon::before {
+    content: "🐱";
+    margin-right: 8px;
+}
+
+.linkedin-icon::before {
+    content: "🔗";
+    margin-right: 8px;
+}
+
+.facebook-icon::before {
+    content: "📘";
+}
+
+.twitter-icon::before {
+    content: "🐦";
+}
+
+.instagram-icon::before {
+    content: "📸";
+}
+
+.linkedin-icon::before {
+    content: "🔗";
+}
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bar style.css"/>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="https://www.linkedin.com/in/harshini-m-bb3932275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">my linkedin</a>
+        <a href="about.html">project</a>
+        <a href="demo.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div class="container">
+        <div class="image">
+            <br><br><br><br><br>
+          <img src="developer.png" width="500px" height="350px" alt="Image">
+          <br><br><br><br><br>
+          <div class="can">
+            <h2 style="font-size: 200%;color: rgb(0, 106, 255);">TECHNICAL SKILLS:</h2>
+            <p>HTML</P>
+            <div class="progress-bar">
+              <div class="progress" style="width: 99.9%;">99.9%</div>
+            </div>
+            <p>CSS</P>
+            <div class="progress-bar">
+              <div class="progress" style="width: 99.9%;">99.9%</div>
+            </div>
+            <p>JavaScript</P>
+            <div class="progress-bar">
+              <div class="progress" style="width: 99.9%;">99.9%</div>
+            </div>
+            <p>PHP</P>
+              <div class="progress-bar">
+                <div class="progress" style="width: 99.9%;">99.9%</div>
+              </div>  
+            </div>
+        </div>
+        <div class="text">
+            <br><br>
+    <h2 style="font-size: 200%;color: rgb(0, 106, 255);" align="left">Career Objective:</h2>
+    <p style="font-size: 20px; padding: 50px;"><b>I am very practical person with an amiable disposition and strong cultural value. Seeking a position of lecturer where i can give practical knowledge with the theoretical concept.</b></p>
+    <h2 style="font-size: 200%;color: rgb(0, 106, 255);" align="left">Social Icons:</h2>
+    <div class="contact-info">
+      <p><i class="phone-icon"></i> XXXXXXXXXX</p>
+      <p><i class="email-icon"></i> harshini107218@gmail.com</p>
+      <p><i class="github-icon"></i> <a href="https://harshini10728.github.io">GitHub</a></p>
+      <p><i class="linkedin-icon"></i> <a href="https://www.linkedin.com/in/harshini-m-bb3932275">LinkedIn</a></p>
+  </div>
+
+  <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank"><i class="facebook-icon"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="twitter-icon"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="instagram-icon"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="linkedin-icon"></i></a>
+  </div>
+    <h3 style="font-size: 200%;color: rgb(0, 106, 255);" align="left">Education:</h3>
+        <p style="font-size: 20px; padding: 50px;">John Dewey Matriculation Higher Secondary School ,<br>
+        Villupuram — SSLC-55% , HSC-50%<br>
+        <br>
+        2019 - 2022<br>
+        Theivanai Ammal College For Women , Villupuram <br> BCA-77%<br>
+        <br>
+        2022 - 2025<br>
+        Sri Manakula Vinayagar Engineering college ,Puducharry <br> MCA-70%</p>
+        </div>
+    </div>
+    
+    <p style="font-size: 200%; color: rgb(0, 106, 255); padding-left: 100px;" align="left"><b>Languages:</b></p>
+      <div class="image-container">
+      <div class="ac">
+        <div class="progress-circle" id="circle1">
+          <svg class="progress-circle__svg">
+            <circle class="progress-circle__background" cx="50%" cy="50%" r="40%"></circle>
+            <circle class="progress-circle__bar" cx="50%" cy="50%" r="40%"></circle>
+          </svg>
+          <p style="font-family: Arial, Helvetica, sans-serif; font-size: 30px;">English</p>
+          <div class="progress-circle__text">0%</div>
+        </div>
+      </div>
+      <div class="am">
+        <div class="progress-circle" id="circle2">
+          <svg class="progress-circle__svg">
+            <circle class="progress-circle__background" cx="50%" cy="50%" r="40%"></circle>
+            <circle class="progress-circle__bar" cx="50%" cy="50%" r="40%"></circle>
+          </svg>
+          <p style="font-family: Arial, Helvetica, sans-serif; font-size: 30px;">Hindi</p>
+          <div class="progress-circle__text">0%</div>
+        </div>
+      </div>
+      <div class="as">
+        <div class="progress-circle" id="circle3">
+          <svg class="progress-circle__svg">
+            <circle class="progress-circle__background" cx="50%" cy="50%" r="40%"></circle>
+            <circle class="progress-circle__bar" cx="50%" cy="50%" r="40%"></circle>
+          </svg>
+          <p style="font-family: Arial, Helvetica, sans-serif; font-size: 30px;">Tamil</p>
+          <div class="progress-circle__text">0%</div>
+        </div>
+      </div> 
+      </div>
+      <script>
+        function setProgress(circleId, percent) {
+        const circle = document.querySelector(`#${circleId} .progress-circle__bar`);
+        const text = document.querySelector(`#${circleId} .progress-circle__text`);
+      
+        const radius = circle.r.baseVal.value;
+        const circumference = 2 * Math.PI * radius;
+      
+        const offset = circumference - percent / 100 * circumference;
+        circle.style.strokeDasharray = `${circumference} ${circumference}`;
+        circle.style.strokeDashoffset = offset;
+      
+        text.textContent = `${percent}%`;
+      }
+      
+      
+      setProgress('circle1', 80);
+      setProgress('circle2', 90);
+      setProgress('circle3', 90);
+      </script>
+</body>
+</html>
